@@ -2,7 +2,7 @@
 <html lang="en-US">
     <head>
         <title>Vinyl Music Production</title>
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/inside_style.css">
     </head>
         <div class="main-nav">
             <ul class="nav">
@@ -15,9 +15,49 @@
         <body>
             <header>
                 <h1>Contact</h1>
-                
             </header>
-            <form>
+            <h2>Fill out the form below for an instant price quote.</h2>
+            <form onsubmit="submitForm(event)">
+                <label for="name">Name: </label>
+                    <input id="name" type="text" />
+
+                    <fieldset>
+                        <h3>Choose the desired services:</h3>
+                        <div>
+                          <input type="checkbox" id="BeatMix" name="service" value="30">
+                          <label for="BeatMix">BeatMixing</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="MixMaster" name="service" value="70">
+                          <label for="MixMaster">Mixing & Mastering</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Collab" name="service" value="40">
+                            <label for="Collab">Collaboration</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Promotion" name="service" value="20">
+                            <label for="Promotion">Promotion</label>
+                        </div>
+                      </fieldset>
+                <!-- <ul>
+                    <li><label for="services">Services Available:</label></li>
+                    <p style="italic">(check the services that interest you then click "Submit")</p>
+                 
+                    <li><label for="BeatMix">Beat Mixing</label>
+                    <input id="BeatMix" type="checkbox" value=30 /></li>
+                 
+                    <li><label for="MixMaster"> Mixing & Mastering</label>
+                        <input id="MixMaster" type="checkbox" /></li>
+                 
+                    <li><label for="Collab">Collaboration</label>
+                    <input id="Collab" type="checkbox" /></li>
+                </ul> -->
+                <input type="submit" value="Submit" />
+            </form>
+              
+              <div id="message"></div>
+            <!-- <form>
 
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="user_name">
@@ -32,6 +72,7 @@
                 <textarea id="message" name="message"></textarea>
 
                 <input type="button" value="Submit">
-            </form>    
+            </form>  -->
+            <script src="js/script.js"></script>   
         </body>
 </html>

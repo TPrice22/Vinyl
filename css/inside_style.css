@@ -1,9 +1,8 @@
 /* Global Layout Set-up */
 * { 
     box-sizing: border-box;
+    text-align: left;
   }
-
-
 
 .main-nav {
     width: 100%;
@@ -38,14 +37,22 @@
   
   header {
     text-align: center;
-    
+    line-height: 1.5;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
+    margin-left: 10vw;
   }
-  header {
-    line-height: 1.5;
+
+  form, h2 {
+    margin-left: 10vw;
   }
+ 
+  fieldset {
+    display: block;
+    margin: 0;
+    border: none;
+}
 
 li {
     text-decoration: none;
@@ -66,7 +73,7 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #222;
-    background: url('images/keyboard.jpg') no-repeat top center ;
+    /* background: url('../images/keyboard.jpg') no-repeat top center ; */
   }
 
   footer {
@@ -101,7 +108,7 @@ body {
         margin: 0 auto;
     }
   
-    header {
+    /* header { */
       min-height: 450px;
     }
   
