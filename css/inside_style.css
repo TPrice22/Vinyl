@@ -44,15 +44,9 @@
     margin-left: 10vw;
   }
 
-  form, h2 {
+  form, h2, h4 {
     margin-left: 10vw;
   }
- 
-  fieldset {
-    display: block;
-    margin: 0;
-    border: none;
-}
 
 li {
     text-decoration: none;
@@ -136,9 +130,20 @@ body {
       margin: 40px auto;
     }
   
-  }
-  h3 {
+  
+    h3 {
+        color: maroon;
+        letter-spacing: 2px;
+    }
+    
+    #payment-total {
+      display: none;
+    }
+
+    #input {
+      border: none;
+      font-size: larger;
+      font-weight: bold;
       color: maroon;
-      letter-spacing: 2px;
-  }
+    }
   
