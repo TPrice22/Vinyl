@@ -1,7 +1,7 @@
 # Vinyl
 Promotes music created by Vinyl
 
-My project is a website promoting the music and services of Vinyl, an amateur music production artist. It has been tested on Chrome and Firefox (I do not have access to Safari).
+My project is a website promoting the music and services of Vinyl, an amateur music production artist. It has been tested on Chrome and Firefox (I do not have access to Safari). Start viewing the project from index.html, then click on the hamburger icon for the menu. Visit both music.html and service.html. It is also saved to github pages: https://tprice22.github.io/Vinyl/.
 
 CSS Features include:
 1) an expanding/collapsing navigation menu with a hamburger icon for index.html
