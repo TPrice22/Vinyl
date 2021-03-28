@@ -1,43 +1,73 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <title>Vinyl Music Production</title>
-        <link rel="stylesheet" href="css/inside_style.css">
-    </head>
-        <div class="main-nav">
-            <ul class="nav">
-                <li class="name">Vinyl</li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="music.html">My Music</a></li>
-                <li><a href="services.html">Services</a></li>
-            </ul>
-        </div>
-        <body>
-            <header>
-                <h1>Services</h1>
-            </header>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Vinyl Music Production</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+</head>
+<body>
+	
+	<header class="main-header">
+		<h1 class="name"><a href="#">Vinyl</a></h1>
+		<ul class="main-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="music.html">My Music</a></li>
+			<li><a href="#">Services</a></li>
+		</ul>
+	</header><!--/.main-header-->   
 
-            <h4>Please check the services that interest you for an instant estimate.</h4>
-
+	<div class="banner">
+		<h1 class="headline">Services</h1>
+	</div><!--/.banner-->
+	
+	<div class="wrap">		
+		<div class="primary col">
+			<h2>Beat Mixing</h2>
+			<p>The plans you refer to will soon be back in our hands. Ye-ha! Red Five standing by. I call it luck.</p>
+			<p>Still, she's got a lot of spirit. I don't know, what do you think? You mean it controls your actions? The Force is strong with this one. I have you now. You don't believe in the Force, do you?</p>
+            <h2>Mixing & Mastering</h2>
+            <p>Remember, a Jedi can feel the Force flowing through him. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Escape is not his plan. I must face him, alone. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here.</p>
+			<p>The plans you refer to will soon be back in our hands. Alderaan? I'm not going to Alderaan. I've got to go home. It's late, I'm in for it as it is. But with the blast shield down, I can't even see! How am I supposed to fight?</p>
+		</div><!--/.primary-->
+		
+		<div class="secondary col">
+			<h2>Cost Estimate</h2>
             <form>
 
-            <section id="extra-features">
-                <div class="checkbox">
-                <label><input type="checkbox" name="checkbox" id="BeatMix" class="sum" value="20" data-toggle="checkbox"> Beat Mixing</label>
-                </div><br/>
-                <div class="checkbox">
-                <label><input type="checkbox" name="checkbox" id="MixMaster" class="sum" value="45" data-toggle="checkbox"> Mixing & Mastering</label>
-                </div><br/>
-                <div class="checkbox">
-                <label><input type="checkbox" name="checkbox" id="Collab" class="sum" value="70" data-toggle="checkbox"> Collaboration</label>
-                </div><br/>
-                <div class="checkbox">
-                <label><input type="checkbox" name="checkbox" id="Promotion" class="sum" value="35" data-toggle="checkbox"> Promotion</label>
-                </div>
-                </section>
-                <span id="payment-total">0</span>
-                <h3>The services you have chosen would cost: $<input id="input" type="text" value="0"/></h3>
-            </form>
-            <script src="js/services.js"></script>   
-        </body>
+                <section id="services">
+                    <div class="checkbox">
+                    <label><input type="checkbox" name="checkbox" id="BeatMix" class="sum" value="20" data-toggle="checkbox"> Beat Mixing</label>
+                    </div><br/>
+                    <div class="checkbox">
+                    <label><input type="checkbox" name="checkbox" id="MixMaster" class="sum" value="45" data-toggle="checkbox"> Mixing & Mastering</label>
+                    </div><br/>
+                    <div class="checkbox">
+                    <label><input type="checkbox" name="checkbox" id="Collab" class="sum" value="70" data-toggle="checkbox"> Collaboration</label>
+                    </div><br/>
+                    <div class="checkbox">
+                    <label><input type="checkbox" name="checkbox" id="Promotion" class="sum" value="35" data-toggle="checkbox"> Promotion</label>
+                    </div>
+                    </section>
+                    <span id="payment-total">0</span>
+                    <h3>Your Cost: $<input id="input" type="text" value="0" size="2"/></h3>
+                </form>
+                <script src="js/services.js"></script>
+        </div><!--/.secondary-->
+        <div class="primary col">
+			<h2>Collaboration</h2>
+			<p>The plans you refer to will soon be back in our hands. Ye-ha! Red Five standing by. I call it luck.</p>
+			<p>Still, she's got a lot of spirit. I don't know, what do you think? You mean it controls your actions? The Force is strong with this one. I have you now. You don't believe in the Force, do you?</p>
+            <h2>Promotion</h2>
+            <p>Remember, a Jedi can feel the Force flowing through him. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Escape is not his plan. I must face him, alone. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here.</p>
+			<p>The plans you refer to will soon be back in our hands. Alderaan? I'm not going to Alderaan. I've got to go home. It's late, I'm in for it as it is. But with the blast shield down, I can't even see! How am I supposed to fight?</p>
+		</div><!--/.tertiary-->
+
+	</div>
+	
+	<footer class="main-footer">
+		<span>&copy;2020. Vinyl Music Production.</span>
+	</footer>
+	
+</body>
 </html>

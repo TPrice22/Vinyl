@@ -1,0 +1,162 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrap {
+    min-height: calc(70vh - 90px);
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.35em;
+	margin: 0;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: .95em;
+	color:rgba(13, 110, 139, 0.75);
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.banner,
+.main-footer {
+	text-align: center;
+}
+
+.banner {
+	color: #fff;
+	background: rgba(13, 110, 139, 0.75);
+	padding: 1.2em 0;
+	margin-bottom: 20px;
+}
+
+.col {
+	padding-right: 1em;
+    padding-left: 1em;
+}
+
+.main-footer {
+	background: rgba(13, 110, 139, 0.75);
+	padding: 2em 0;
+    margin-top: 30px;
+    color: white;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+}
+
+.feat-img {
+	border-radius: 5px;
+}
+
+/* ---- Form Elements ---- */
+
+#services {
+    margin-bottom: 20px;
+}
+
+#payment-total {
+    display: none;
+  }
+
+#input {
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    color: #093a58;
+    background: none;
+    text-align: center;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.main-header,
+	.wrap {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
+@media (min-width: 1025px) {
+	.main-header,
+	.wrap {
+		width: 80%;
+		max-width: 1150px;
+	}
+}

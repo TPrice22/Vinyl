@@ -1,0 +1,44 @@
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+  
+  .main-header,
+  .main-nav,
+  .wrap {
+    display: flex;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    flex: 1 50%;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (min-width: 1025px) {
+
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col {
+      flex-basis: 0;
+  }
+
+  .secondary {
+      flex-grow: .75;
+      background: rgba(13, 110, 139, 0.75);
+  }
+
+}
