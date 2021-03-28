@@ -23,6 +23,10 @@
     flex-wrap: wrap;
   }
 
+  .tertiary {
+    flex-grow: .75;
+  }
+
 }
 
 @media (min-width: 1025px) {
@@ -36,9 +40,9 @@
       flex-basis: 0;
   }
 
-  .secondary {
-      flex-grow: .75;
+  #services {
       background: rgba(13, 110, 139, 0.75);
+      padding: 10px;
   }
 
 }
