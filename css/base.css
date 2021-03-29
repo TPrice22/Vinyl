@@ -41,6 +41,7 @@ a {
 
 img {
 	max-width: 100%;
+	border: 3px solid #3a3a3a;
 }
 
 .wrap {
@@ -57,20 +58,24 @@ img {
 	font-size: 1.35em;
 	margin: 0;
 }
+
 .main-nav {
 	margin-top: 5px;
 }
+
 .name a,
 .main-nav a {
 	text-align: center;
 	display: block;
 	padding: 10px 15px;
 }
+
 .main-nav a {
 	font-size: .95em;
-	color:rgba(13, 110, 139, 0.75);
+	color: #0d6e8b;
 	text-transform: uppercase;
 }
+
 .main-nav a:hover {
 	color: #093a58;
 }
@@ -89,9 +94,10 @@ img {
 
 .banner {
 	color: #fff;
-	background: rgba(13, 110, 139, 0.75);
-	padding: 1.2em 0;
+	background: #0d6e8b;
 	margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .col {
@@ -100,7 +106,7 @@ img {
 }
 
 .main-footer {
-	background: rgba(13, 110, 139, 0.75);
+	background: #0d6e8b;
 	padding: 2em 0;
     margin-top: 30px;
     color: white;
